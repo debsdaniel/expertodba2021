@@ -1,0 +1,2 @@
+Iniciar Proyecto localmente
+git init
