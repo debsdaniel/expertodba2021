@@ -9,8 +9,9 @@ git remote add origin https://github.com/debsdaniel/expertodba2021.git
 Verificar Estado
 git status
 
+Esto se hace siempre con un cambio
+
 Subir Cambios
 git add .
 git commit -m "Carga Inicial"
-
 git push -u origin master
