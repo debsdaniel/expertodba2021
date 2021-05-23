@@ -18,3 +18,15 @@ git push -u origin master
 
 Copiar/Clonar un repositorio
 git clone https://github.com/debsdaniel/expertodba2021.git
+
+Bajar Cambios
+git fetch -p
+git pull
+
+
+
+
+
+
+
+
