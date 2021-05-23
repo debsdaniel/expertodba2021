@@ -1,2 +1,16 @@
 Iniciar Proyecto localmente
 git init
+
+git config user.email "dbojorges@gmail.com"
+git config user.name "debsdaniel"
+
+git remote add origin https://github.com/debsdaniel/expertodba2021.git
+
+Verificar Estado
+git status
+
+Subir Cambios
+git add .
+git commit -m "Carga Inicial"
+
+git push -u origin master
