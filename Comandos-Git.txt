@@ -15,3 +15,6 @@ Subir Cambios
 git add .
 git commit -m "Carga Inicial"
 git push -u origin master
+
+Copiar/Clonar un repositorio
+git clone https://github.com/debsdaniel/expertodba2021.git
