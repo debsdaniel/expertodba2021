@@ -1,0 +1,10 @@
+BEGIN TRY
+	DECLARE @n int
+	set @n = 5 /0
+	print 'No se imprimirá'
+END TRY
+BEGIN CATCH
+	--print 'El error es ->' + ERROR_MESSAGE() + '<-'
+	SELECT ERROR_NUMBER(),ERROR_SEVERITY(),ERROR_STATE(),
+		ERROR_PROCEDURE(),ERROR_LINE(),ERROR_MESSAGE()
+END CATCH
