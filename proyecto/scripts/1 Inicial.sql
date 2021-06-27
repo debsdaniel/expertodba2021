@@ -4,7 +4,8 @@ DDL : Crear Objetos : Data Definition Language : Lenguaje de Defición de Datos
 DML : Operar Registros:  Data Managment Language : Lenguaje de Manejo de Datos
 DCL : Permisos a Objetos:  Data Control Language : Lenguaje de Control de Datos
 */
---CREATE DATABASE DB_EXPERTODBA
+CREATE DATABASE DB_EXPERTODBA
+GO
 USE DB_EXPERTODBA
 GO
 
